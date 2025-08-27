@@ -57,7 +57,7 @@
     <properties>
         <!-- Nexus Settings -->
         <nexus.repository.staging>wildfly-staging</nexus.repository.staging>
-        <nexus.staging.tag>jboss-remoting-${project.version}</nexus.staging.tag>
+        <nexus.staging.tag>remoting-jmx-${project.version}</nexus.staging.tag>
         <!-- Release repository inherited from jboss-parent -->
 
         <maven.compiler.source>11</maven.compiler.source>
