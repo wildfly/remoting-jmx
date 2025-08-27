@@ -34,6 +34,10 @@
         <version>50</version>
     </parent>
 
+    <name>JBoss Remoting</name>
+    <description>JMX Connector over the JBoss Remoting transport.</description>
+    <url>https://github.com/wildfly/remoting-jmx</url>
+
     <licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -41,10 +45,14 @@
         </license>
     </licenses>
 
-    <organization>
-        <name>JBoss, a division of Red Hat, Inc.</name>
-        <url>http://www.jboss.org/</url>
-    </organization>
+    <developers>
+        <developer>
+            <name>Darran Lofthouse</name>
+            <email>darran.lofthouse@jboss.com</email>
+            <organization>WildFly</organization>
+            <organizationUrl>https://www.wildfly.org/</organizationUrl>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
