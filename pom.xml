@@ -19,14 +19,12 @@
  -->
 
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jboss.remotingjmx</groupId>
     <artifactId>remoting-jmx</artifactId>
-    <version>3.2.0.CR1-SNAPSHOT</version>
+    <version>3.2.0.Alpha1</version>
 
     <parent>
         <groupId>org.jboss</groupId>
@@ -164,7 +162,7 @@
         								</goals>
         							</pluginExecutionFilter>
         							<action>
-        								<ignore></ignore>
+        								<ignore />
         							</action>
         						</pluginExecution>
         					</pluginExecutions>
@@ -267,5 +265,6 @@
         <connection>scm:git:git://github.com/jbossas/remoting-jmx.git</connection>
         <developerConnection>scm:git:git@github.com:jbossas/remoting-jmx.git</developerConnection>
         <url>https://github.com/jbossas/remoting-jmx</url>
-    </scm>
+      <tag>3.2.0.Alpha1</tag>
+  </scm>
 </project>
