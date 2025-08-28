@@ -63,19 +63,19 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <version.junit>4.13.1</version.junit>
-        <version.org.jboss.logging>3.4.3.Final</version.org.jboss.logging>
-        <version.org.jboss.logging.tools>2.2.1.Final</version.org.jboss.logging.tools>
+        <version.junit>4.13.2</version.junit>
+        <version.org.jboss.logging>3.6.1.Final</version.org.jboss.logging>
+        <version.org.jboss.logging.tools>3.0.4.Final</version.org.jboss.logging.tools>
         <version.org.jboss.logmanager>2.1.19.Final</version.org.jboss.logmanager>
-        <version.org.jboss.marshalling>2.1.1.Final</version.org.jboss.marshalling>
-        <version.org.jboss.modules>2.1.0.Final</version.org.jboss.modules>
-        <version.org.jboss.remoting>5.0.27.Final</version.org.jboss.remoting>
-        <version.org.jboss.threads>2.4.0.Final</version.org.jboss.threads>
-        <version.org.jboss.xnio>3.8.9.Final</version.org.jboss.xnio>
+        <version.org.jboss.marshalling>2.2.3.Final</version.org.jboss.marshalling>
+        <version.org.jboss.modules>2.1.6.Final</version.org.jboss.modules>
+        <version.org.jboss.remoting>5.0.31.Final</version.org.jboss.remoting>
+        <version.org.jboss.threads>3.9.1</version.org.jboss.threads>
+        <version.org.jboss.xnio>3.8.16.Final</version.org.jboss.xnio>
         <version.org.wildfly.client>1.0.1.Final</version.org.wildfly.client>
-        <version.org.wildfly.common>1.6.0.Final</version.org.wildfly.common>
-        <version.org.wildfly.security>2.2.1.Final</version.org.wildfly.security>
-        <version.surefire.plugin>2.12</version.surefire.plugin>
+        <version.org.wildfly.common>1.7.0.Final</version.org.wildfly.common>
+        <version.org.wildfly.security>2.6.4.Final</version.org.wildfly.security>
+        <version.surefire.plugin>3.1.2</version.surefire.plugin>
     </properties>
 
     <build>
