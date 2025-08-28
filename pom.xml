@@ -34,7 +34,7 @@
         <version>50</version>
     </parent>
 
-    <name>JBoss Remoting</name>
+    <name>Remoting JMX</name>
     <description>JMX Connector over the JBoss Remoting transport.</description>
     <url>https://github.com/wildfly/remoting-jmx</url>
 
