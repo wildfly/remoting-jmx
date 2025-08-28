@@ -24,7 +24,7 @@
 
     <groupId>org.jboss.remotingjmx</groupId>
     <artifactId>remoting-jmx</artifactId>
-    <version>3.2.0.Alpha1</version>
+    <version>3.2.0.CR1-SNAPSHOT</version>
 
     <parent>
         <groupId>org.jboss</groupId>
@@ -265,6 +265,6 @@
         <connection>scm:git:git://github.com/jbossas/remoting-jmx.git</connection>
         <developerConnection>scm:git:git@github.com:jbossas/remoting-jmx.git</developerConnection>
         <url>https://github.com/jbossas/remoting-jmx</url>
-      <tag>3.2.0.Alpha1</tag>
+      <tag>HEAD</tag>
   </scm>
 </project>
