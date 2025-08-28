@@ -80,6 +80,19 @@
 
     <build>
         <plugins>
+            <plugin>
+                <!-- Release Plugin Configuration -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <!-- Prepare -->
+                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <pushChanges>false</pushChanges>
+                    <!-- Perform -->
+                    <localCheckout>true</localCheckout>
+                </configuration>
+            </plugin>
+
             <!-- Surefire -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
