@@ -28,13 +28,10 @@ For background, see the Linux Foundation’s guidance:
 To contribute, you will first need to fork the [remoting-jmx](https://github.com/wildfly/remoting-jmx) repository.
 
 This can be done by looking in the top-right corner of the repository page and clicking "Fork".
-![fork](assets/images/fork.jpg)
 
 The next step is to clone your newly forked repository onto your local workspace. This can be done by going to your newly forked repository, which should be at `https://github.com/USERNAME/remoting-jmx`.
 
 Then, there will be a green button that says "Code". Click on that and copy the URL.
-
-![clone](assets/images/clone.png)
 
 Then, in your terminal, paste the following command:
 ```bash
@@ -66,7 +63,7 @@ You will need:
 * Git
 * Maven
 * An [IDE](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java)
-  (e.g., [IntelliJ IDEA](https://www.jetbrains.com/idea/download/), [Eclipse](https://www.eclipse.org/downloads/), etc.)
+  (e.g., [IntelliJ IDEA](https://www.jetbrains.com/idea/download/), [Eclipse](https://www.eclipse.org/downloads/), [VS Code](https://code.visualstudio.com/), etc.)
 
 
 First `cd` to the directory where you cloned the project (eg: `cd remoting-jmx`)
